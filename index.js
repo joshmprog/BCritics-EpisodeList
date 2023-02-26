@@ -1,7 +1,11 @@
 <!--./index.js-->
 
-var pleasee = fetch('./data.json').response.json();
-console.log(pleasee.items[0]);
+function pleasee() {
+   return fetch('./data.json').response.json();
+}
+console.log(pleasee());
+var testa = pleasee();
+console.log(testa[0]);
 
    
 //var okay = json.items;

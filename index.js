@@ -1,10 +1,14 @@
-function logResults(json) {
-    console.log(json)
+function displayHighScoresJSON() {
+    var requestLocal = new XMLHttpRequest();
+    
+    requestLocal.open("GET", "resultEpisodesList.json", false);
+    requestLocal.setRequestHeader("Content-Type", "application/json");
+    requestLocal.send();
+
+   var highScoresDiv = document.getElementById("items");
+   var json = JSON.parse(requestLocal.responseText);
+   
+   highScoresDiv.innerHTML = json.items.description;
 }
 
-$.ajax({
-    url: "https://raw.githubusercontent.com/joshmprog/BCritics-EpisodeList/main/resultEpisodesList.json",
-    dataType: "json"
-}).done(function(result){
-    console.log(result);
-});
+displayHighScoresJSON();

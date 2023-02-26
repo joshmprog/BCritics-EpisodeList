@@ -1,6 +1,10 @@
-$().ready(function(){
-    $.getJSON( "/resultEpisodesList.json", function( resultEpisodesList ) {
-    console.log(resultEpisodesList);
-    $("#items").html(resultEpisodesList["items"]);
-  });
+function logResults(json) {
+    console.log(json)
+}
+
+$.ajax({
+    url: "https://raw.githubusercontent.com/joshmprog/BCritics-EpisodeList/main/resultEpisodesList.json",
+    dataType: "json"
+}).done(function(result){
+    console.log(result);
 });

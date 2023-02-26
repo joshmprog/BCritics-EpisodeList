@@ -1,13 +1,10 @@
-var requestLocal = new XMLHttpRequest();
-    
-requestLocal.open("GET", "resultEpisodesList.json", false);
-requestLocal.setRequestHeader("Content-Type", "application/json");
-requestLocal.send();
+<!--./index.js-->
 
-//var highScoresDiv = document.getElementById("items");
-var json = JSON.parse(requestLocal.responseText);
+fetch('./data.json')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
    
-var okay = json.items;
+//var okay = json.items;
 var ahh = "why yes!";
 
 document.getElementById("hmm").innerHTML = ahh;

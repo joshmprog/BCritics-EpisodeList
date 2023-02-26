@@ -1,8 +1,8 @@
 <!--./index.js-->
 
-fetch('./data.json')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
+var pleasee = fetch('./data.json').response.json();
+console.log(pleasee));
+
    
 //var okay = json.items;
 var ahh = "why yes!";

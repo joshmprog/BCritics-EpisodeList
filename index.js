@@ -8,7 +8,7 @@ function displayHighScoresJSON() {
    var highScoresDiv = document.getElementById("items");
    var json = JSON.parse(requestLocal.responseText);
    
-   highScoresDiv.innerHTML = json.items.description;
+   highScoresDiv.innerHTML = json.items[0];
 }
 
 displayHighScoresJSON();

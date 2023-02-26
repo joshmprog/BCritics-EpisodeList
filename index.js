@@ -1,10 +1,12 @@
 <!--./index.js-->
 
-function pleasee() {
-   return fetch('./data.json').response.json();
+function readData() {
+   var resp = fetch('./data.json').response;
+   console.log(resp);
+   return resp.json();
 }
-console.log(pleasee());
-var testa = pleasee();
+console.log(readData());
+var testa = readData();
 console.log(testa[0]);
 
    

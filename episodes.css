@@ -68,7 +68,7 @@ body
   transform: translateX(-200px);
   transition-delay: 0.2s;
   color: black;
-  font-size:smaller;
+  font-size:0.75rem;
 }
 .animate-text
 {

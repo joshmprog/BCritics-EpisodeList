@@ -1,13 +1,12 @@
 <!--./index.js-->
 
-function readData() {
-   var resp = fetch('./data.json').response;
-   console.log(resp);
-   return resp.json();
-}
-console.log(readData());
-var testa = readData();
-console.log(testa[0]);
+<!--./index.js-->
+
+var okay = fetch('./data.json')
+    .then((response) => response.json())
+    .then((json) => json);
+
+console.log(okay);
 
    
 //var okay = json.items;

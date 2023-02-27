@@ -8,6 +8,7 @@ fetch('./data.json')
         var title = data.items[i].name;
         var desc = data.items[i].description.substring(0,200) + "...";
         var imageurl = data.items[i].images[0].url;
+        var audioprev = data.items[i].audio_preview_url;
         var key = data.items[i].id;
         var badge = document.createElement('div');
         badge.className = 'tile';
@@ -17,11 +18,12 @@ fetch('./data.json')
           '<div class="text">' +
           '<h2>' + title + '</h2>' + 
           '<p class="animate-text">' + desc + '</p>' + 
-          '<div class="dots">' + 
-            '<span></span>' + 
-            '<span></span>' + 
-            '<span></span>' + 
-          '</div>' + 
+          '<div class="audioplayer"><audio controls style="width:200px"><source src="' + audioprev + '" type="audio/mpeg"></audio></div>' + 
+          //'<div class="dots">' + 
+          //  '<span></span>' + 
+          //  '<span></span>' + 
+          //  '<span></span>' + 
+          //'</div>' + 
           '</div>';
         document.getElementById('badge-list').appendChild(badge);
       }

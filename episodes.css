@@ -3,6 +3,7 @@
 body
 {
   background-color:#dc89f3;
+  font-family:'Space Grotesk';
 }
 .wrap
 {
@@ -26,7 +27,6 @@ body
   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
   overflow:hidden;
   color:white;
-  font-family:'Space Grotesk';
   
 }
 .tile img
@@ -45,7 +45,6 @@ body
   position:absolute;
   padding:5px;
   height:calc(100% - 5px);
-  font-family: 'Space Grotesk';
 }
 .tile h1
 {
@@ -53,14 +52,12 @@ body
   font-weight:150;
   margin:0;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-  font-family: 'Space Grotesk';
 }
 .tile h2
 {
   font-weight:75;
   margin:1px 0 0 10px;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-  font-family: 'Space Grotesk';
 }
 .tile p
 {
@@ -70,7 +67,6 @@ body
 /*   opacity:0; */
   transform: translateX(-200px);
   transition-delay: 0.2s;
-  font-family: 'Space Grotesk';
   color: black;
 }
 .animate-text

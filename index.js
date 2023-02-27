@@ -2,8 +2,10 @@
 
 fetch('./data.json')
   .then((response) => response.json())
-  .then((json) => {
-    console.log(json.items[0].description);
+  .then((json) => JSON.parse(json))
+  .then((myObj) => {
+    console.log(myObj);
+    console.log(myObj.items[0].description);
 });
 
 //const myOb = JSON.parse(myJSON);

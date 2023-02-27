@@ -1,12 +1,10 @@
 <!--./index.js-->
 
-<!--./index.js-->
-
-var okay = fetch('./data.json')
+fetch('./data.json')
     .then((response) => response.json())
-    .then((json) => json);
+    .then((json) => eps);
 
-console.log(okay);
+console.log(eps);
 
    
 //var okay = json.items;

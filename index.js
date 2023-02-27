@@ -1,13 +1,12 @@
 <!--./index.js-->
 
-const okay = fetch('./data.json').then(function (response) {
-	// If the response is successful, get the JSON
-	if (response.ok) {
-		return response.json();
-	}
+fetch('./data.json')
+  .then((response) => response.json())
+  .then((data) => {
+	console.log(JSON.stringify(data));
+	console.log(data.items);	
 });
-console.log(JSON.stringify(okay));
-console.log(okay.items);
+
    
 var ahh = "why yes!";
 

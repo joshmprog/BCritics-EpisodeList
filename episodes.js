@@ -4,7 +4,8 @@ fetch('./data.json')
   .then((response) => response.json())
   .then((json) => JSON.parse(json))
   .then((myObj) => {
-    document.getElementById("tile1title").innerHTML = myObj.items[0].name;
-    document.getElementById("tile1desc").innerHTML = myObj.items[0].description.substring(0,200) + "...";
-  
+    for (var i = 1; i < 5; i++) { //data.tennis.length; i++) {
+    document.getElementById("tile" + i + "title").innerHTML = myObj.items[i-1].name;
+    document.getElementById("tile" + i + "desc").innerHTML = myObj.items[i-1].description.substring(0,200) + "...";
+    }
 });

@@ -1,7 +1,7 @@
 <!--./index.js-->
 
 const response = fetch('./data.json');
-const json = response.json();
+const json = response.then(response.json());
 
 console.log(JSON.stringify(json));
 console.log(json.items);

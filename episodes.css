@@ -58,14 +58,14 @@ body
 .tile h2
 {
   font-weight:75;
-  margin:0 0 0 0;
+  margin:1px 0 0 10px;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
   font-family: 'Space Grotesk';
 }
 .tile p
 {
   font-weight:150;
-  margin:20px 0 0 20px;
+  margin:2px 10px 0 10px;
   line-height: 20px;
 /*   opacity:0; */
   transform: translateX(-200px);

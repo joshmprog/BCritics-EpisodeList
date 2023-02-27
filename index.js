@@ -5,7 +5,7 @@ const okay = fetch('./data.json').then(function (response) {
 	if (response.ok) {
 		return response.json();
 	}
-
+});
 console.log(JSON.stringify(okay));
 console.log(okay.items);
    

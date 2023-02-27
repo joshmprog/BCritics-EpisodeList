@@ -7,7 +7,7 @@ fetch('./data.json')
     //console.log(myObj);
     //console.log(myObj.items[0].description);
     document.getElementById("latestPod").innerHTML = myObj.items[0].name.substring(0,2);
-    document.getElementById("latestEmbed").src = "https://open.spotify.com/embed/track/" + myObj.items[0].id;
+    document.getElementById("latestEmbed").src = "https://open.spotify.com/embed/episode/" + myObj.items[0].id;
 });
 
 //const myOb = JSON.parse(myJSON);

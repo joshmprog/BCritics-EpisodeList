@@ -1,16 +1,10 @@
 <!--./index.js-->
 
-const loadPosts = async () => {
-  const response = await fetch('./data.json');
-  const posts = await response.json();
-  return posts;
-};
-
-const posts = await loadPosts();
-console.log(posts);
-
-//    .then((response) => response.json())
-//    .then((json) => const myJSON = json);
+fetch('./data.json')
+  .then((response) => response.json())
+  .then((json) => {
+    console.log(json.items[0].description);
+});
 
 //const myOb = JSON.parse(myJSON);
 //console.log(myOb.items[0].description);

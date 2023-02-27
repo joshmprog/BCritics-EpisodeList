@@ -1,4 +1,4 @@
-<!--./index.js-->
+<!--./episodes.js-->
 
 fetch('./data.json')
   .then((response) => response.json())

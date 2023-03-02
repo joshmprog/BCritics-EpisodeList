@@ -1,6 +1,6 @@
 <!--./index.js-->
 
-fetch('datastore__data.json')
+fetch('data.json')
   .then((response) => response.json())
   .then((json) => JSON.parse(json))
   .then((myObj) => {

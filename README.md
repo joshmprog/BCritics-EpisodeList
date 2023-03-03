@@ -12,6 +12,10 @@ Modules and Pages are the visual end-products. Modules can be embedded within a 
 Other category is reserved for weird shit because I don't know what I'm doing.
 
 
+
+
+
+
 ### Data
 **Data.json**
 The automatically updating list queried from Spotify and refreshed every day.
@@ -20,9 +24,17 @@ The automatically updating list queried from Spotify and refreshed every day.
 tbd
 
 
+
+
+
+
 ### Modules
 **Home pg: Latest Episode (on phone)**
 The little graphic that pulls in the latest episode from Spotify onto what vaguely looks like a phone.
+
+
+
+
 
 
 ### Pages

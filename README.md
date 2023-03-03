@@ -16,12 +16,11 @@ Other category is reserved for weird shit because I don't know what I'm doing.<b
 **Episode Covers**<br/>
 tbd<br/><br/>
 ### Modules<br/>
-**Home pg: Latest Episode (on phone)**<br/>The little graphic that pulls in the latest episode from Spotify onto what vaguely looks like a phone.
+**Home pg: Latest Episode (Phone)**<br/>The little graphic that pulls in the latest episode from Spotify onto what vaguely looks like a phone.
 <br/>
 <br/>
 ### Pages
-**Episodes pg**
-Automatically updating episodic tile page, arranged in grid format.
+**Episodes pg**<br/>Automatically updating episodic tile page, arranged in grid format.
 <br/>
 <br/>
 ### Other

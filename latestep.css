@@ -1,9 +1,9 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
     background-color: #dc89f3;
-/*   transform: scale(0.8, 0.8) perspective(1000); */
   }
-  /*Basic Phone styling*/
+  
+  /* Designing the phone. */
   
   .phone {
     border: 40px solid #ddd;
@@ -30,18 +30,18 @@ body {
   
   @media (max-width:900px) {
     #wrapper {
-      transform: scale(0.8, 0.8) perspective(1000);
+      transform: scale(0.8, 0.8);
     }
   }
   
   @media (max-width:700px) {
     #wrapper {
-      transform: scale(0.6, 0.6) perspective(1000);
+      transform: scale(0.6, 0.6);
     }
   }
   
   @media (max-width:500px) {
     #wrapper {
-      transform: scale(0.4, 0.4) perspective(1000);
+      transform: scale(0.4, 0.4);
     }
   }

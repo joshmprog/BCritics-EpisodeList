@@ -7,7 +7,6 @@ There are four different types of files on here:
 - Pages
   - Other
 
-<br/><br/>
 Data feeds into Modules and Pages.
 Modules and Pages are the visual end-products. Modules can be embedded within a Google sites page (implication: Liz & Court can edit the page still), whereas Pages are literally the page (must be edited via code e.g. the Episode tiles).
 Other category is reserved for weird shit because I don't know what I'm doing.<br/>

@@ -11,7 +11,7 @@ body {
     border: 40px solid #ddd;
     border-width: 55px 7px;
     border-radius: 40px;
-    margin: 42px 0px 42px 42px;
+    margin: 42px 0px 21px 42px;
     overflow: hidden;
     transition: all 0.5s ease;
 /*     height: 75vh; */
@@ -32,21 +32,21 @@ body {
   
   @media (max-height:900px) {
     #wrapper {
-      transform: scale(0.8, 0.8);
+      transform: scale(0.95, 0.95);
       transform-origin: left top;
     }
   }
   
   @media (max-height:700px) {
     #wrapper {
-      transform: scale(0.6, 0.6);
+      transform: scale(0.75, 0.75);
       transform-origin: left top;
     }
   }
   
   @media (max-height:500px) {
     #wrapper {
-      transform: scale(0.4, 0.4);
+      transform: scale(0.55, 0.55);
       transform-origin: left top;
     }
   }

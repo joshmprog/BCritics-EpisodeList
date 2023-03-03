@@ -1,6 +1,7 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
     background-color: #dc89f3;
+    overflow: hidden;
   }
   
   /* Designing the phone. */

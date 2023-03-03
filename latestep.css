@@ -27,20 +27,23 @@ body {
   }
   
   
-  @media (max-height:700px) {
+  @media (max-height:600px) {
     #wrapper {
       transform: scale(0.8, 0.8);
+      transform-origin: left top;
     }
   }
   
-  @media (max-height:500px) {
+  @media (max-height:400px) {
     #wrapper {
       transform: scale(0.6, 0.6);
+      transform-origin: left top;
     }
   }
   
-  @media (max-height:300px) {
+  @media (max-height:200px) {
     #wrapper {
       transform: scale(0.4, 0.4);
+      transform-origin: left top;
     }
   }

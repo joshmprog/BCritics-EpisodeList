@@ -27,19 +27,19 @@ body {
   }
   
   
-  @media (max-height:900px) {
+  @media (max-height:700px) {
     #wrapper {
       transform: scale(0.8, 0.8);
     }
   }
   
-  @media (max-height:700px) {
+  @media (max-height:500px) {
     #wrapper {
       transform: scale(0.6, 0.6);
     }
   }
   
-  @media (max-height:500px) {
+  @media (max-height:300px) {
     #wrapper {
       transform: scale(0.4, 0.4);
     }

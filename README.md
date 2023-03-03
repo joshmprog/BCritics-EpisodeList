@@ -17,8 +17,8 @@ Other category is reserved for weird shit because I don't know what I'm doing.<b
 tbd<br/><br/>
 ### Modules<br/>
 **Home pg: Latest Episode (on phone)**<br/>The little graphic that pulls in the latest episode from Spotify onto what vaguely looks like a phone.
-
-<br/><br/>
+<br/>
+<br/>
 ### Pages
 **Episodes pg**
 Automatically updating episodic tile page, arranged in grid format.

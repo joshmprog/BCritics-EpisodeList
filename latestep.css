@@ -14,7 +14,9 @@ body {
     transition: all 0.5s ease;
     width: 320px;
     height: 520px;
-    transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);  /*rotateX(30deg) rotateY(0deg) rotateZ(-30deg);*/
+    box-shadow: -3px 3px 0 #BBB, -6px 6px 0 #BBB, -9px 9px 0 #BBB, -12px 12px 0 #BBB, -14px 10px 20px #666;
+    margin-top: 0px;
   }
   
   .phone iframe {
@@ -23,17 +25,6 @@ body {
     height: 380px;
     transform: scale(0.95, 0.95);
     margin-top: 40px;
-/*     margin: 50px 50px 50px 50px; */
-  }
-
-
-  /*Different Perspectives*/
-  
-  .phone.view_1 {
-    transform: rotateX(30deg) rotateY(0deg) rotateZ(-30deg);
-    box-shadow: -3px 3px 0 #BBB, -6px 6px 0 #BBB, -9px 9px 0 #BBB, -12px 12px 0 #BBB, -14px 10px 20px #666;
-    margin-top: 0px;
-/*     margin: 50px 50px 50px 50px; */
   }
   
   

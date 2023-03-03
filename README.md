@@ -12,15 +12,12 @@ Other category is reserved for weird shit because I don't know what I'm doing.<b
 ### Data<br/>
 **Data.json**<br/>The automatically updating list queried from Spotify and refreshed every day.
 
-**Episode Covers**
-tbd
-<br/>
-<br/>
-### Modules
-**Home pg: Latest Episode (on phone)**
-The little graphic that pulls in the latest episode from Spotify onto what vaguely looks like a phone.
-<br/>
-<br/>
+**Episode Covers**<br/>
+tbd<br/><br/>
+### Modules<br/>
+**Home pg: Latest Episode (on phone)**<br/>The little graphic that pulls in the latest episode from Spotify onto what vaguely looks like a phone.
+
+<br/><br/>
 ### Pages
 **Episodes pg**
 Automatically updating episodic tile page, arranged in grid format.

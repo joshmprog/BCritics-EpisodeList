@@ -2,6 +2,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
     background-color: #dc89f3;
     overflow: hidden;
+    margin-bottom: 10px;
   }
   
   /* Designing the phone. */
@@ -10,13 +11,12 @@ body {
     border: 40px solid #ddd;
     border-width: 55px 7px;
     border-radius: 40px;
-    margin: 42px 0px 0px 42px;
+    margin: 42px 0px 42px 42px;
     overflow: hidden;
     transition: all 0.5s ease;
 /*     height: 75vh; */
     max-width: 320px;
     max-height: 520px;
-    display: clip;
     /*transform: scale(0.8, 0.8);  rotateX(30deg) rotateY(0deg) rotateZ(-30deg);*/
     box-shadow: -3px 3px 0 #BBB, -6px 6px 0 #BBB, -9px 9px 0 #BBB, -12px 12px 0 #BBB, -14px 10px 20px #666;
   }
@@ -30,21 +30,21 @@ body {
   }
   
   
-  @media (max-height:600px) {
+  @media (max-height:700px) {
     #wrapper {
       transform: scale(0.8, 0.8);
       transform-origin: left top;
     }
   }
   
-  @media (max-height:400px) {
+  @media (max-height:500px) {
     #wrapper {
       transform: scale(0.6, 0.6);
       transform-origin: left top;
     }
   }
   
-  @media (max-height:200px) {
+  @media (max-height:300px) {
     #wrapper {
       transform: scale(0.4, 0.4);
       transform-origin: left top;

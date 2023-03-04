@@ -1,6 +1,7 @@
 body {
   background-color: #dc89f3;
   text-align: center;
+  overflow: hidden;
 /*   transform: scale(0.9,0.9); */
 }
 
@@ -12,7 +13,7 @@ div {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 /* Icons */

@@ -33,20 +33,20 @@ body {
   @media (max-width:850px) {
     #wrapper {
       transform: scale(0.95, 0.95);
-      transform-origin: top;
+      transform-origin: left top;
     }
   }
   
   @media (max-width:700px) {
     #wrapper {
       transform: scale(0.75, 0.75);
-      transform-origin: top;
+      transform-origin: left top;
     }
   }
   
   @media (max-width:500px) {
     #wrapper {
       transform: scale(0.55, 0.55);
-      transform-origin: top;
+      transform-origin: left top;
     }
   }

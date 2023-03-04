@@ -106,3 +106,32 @@ a:nth-of-type(5):before {
 a:nth-of-type(6):before {
   content: "\f0e0";
 }
+
+@media (max-height:850px) {
+    #wrapper {
+      transform: scale(0.95, 0.95);
+      transform-origin: left top;
+    }
+  }
+  
+  @media (max-height:700px) {
+    #wrapper {
+      transform: scale(0.75, 0.75);
+      transform-origin: left top;
+    }
+  }
+  
+  @media (max-height:500px) {
+    #wrapper {
+      transform: scale(0.55, 0.55);
+      transform-origin: left top;
+    }
+  }
+
+
+
+
+
+
+
+

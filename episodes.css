@@ -15,7 +15,7 @@ body
   /**
    * User input values.
    */
-  --grid-layout-gap: 25px;
+  --grid-layout-gap: 10px;
   --grid-column-count: 5; /* This gets overridden by an inline style. */
   --grid-item--min-width: 240px; /* This gets overridden by an inline style. */
   
@@ -46,9 +46,9 @@ body
   width: 50%; /* Full-width */
   font-size: 16px; /* Increase font-size */
   font-family: 'Space Grotesk';
-  padding: 12px 20px 12px 40px; /* Add some padding */
+  padding: 12px 20px 12px 20px; /* Add some padding */
   border: 3px solid #ddd; /* Add a grey border */
-  margin: 5px 0px 0px 50px;
+  margin: 5px 0px 0px 0px;
   display:block;
   margin-right: auto;
   margin-left: auto;
@@ -113,26 +113,26 @@ body
   color: black;
   font-size:0.75rem;
 }
-.animate-text
+/* .animate-text
 {
   opacity:0;
   transition: all 0.5s ease-in-out;
-}
+} */
 .tile:hover
 {
 /*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 }
-.tile:hover img
+/* .tile:hover img
 {
   opacity: 0.1;
-}
-.tile:hover .animate-text
+} */
+/* .tile:hover .animate-text
 {
   transform:translateX(0);
   opacity:1;
-}
+} */
 
 .audioplayer
 {

@@ -28,7 +28,8 @@ body
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
-  grid-gap: var(--grid-layout-gap);
+/*   grid-gap: var(--grid-layout-gap); */
+  grid-gap: 20px;
   margin:50px 30px 0 30px;
 }
 .testtext h1
@@ -58,8 +59,8 @@ body
 {
   min-width:240px;
   min-height:240px;
-  max-width:calc((100% - var(--total-gap-width)) / var(--grid-column-count));
-  max-height:calc((100% - var(--total-gap-width)) / var(--grid-column-count));
+  max-width:15vw;
+  max-height:15vw;
   border-radius: 8px;
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.7s ease-out cubic-bezier(0.165, 0.84, 0.44, 1);

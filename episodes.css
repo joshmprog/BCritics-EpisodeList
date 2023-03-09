@@ -56,8 +56,10 @@ body
 }
 .tile
 {
-/*   width:calc((100% - var(--total-gap-width)) / var(--grid-column-count));
-  height:calc((100% - var(--total-gap-width)) / var(--grid-column-count)); */
+  min-width:240px;
+  min-height:240px;
+  max-width:calc((100% - var(--total-gap-width)) / var(--grid-column-count));
+  max-height:calc((100% - var(--total-gap-width)) / var(--grid-column-count));
   border-radius: 8px;
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.7s ease-out cubic-bezier(0.165, 0.84, 0.44, 1);

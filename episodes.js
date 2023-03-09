@@ -21,7 +21,7 @@ fetch('./data.json')
                   '<div class="text">' +
                   '<h2>' + title + '</h2>' + 
                   '<p class="animate-text">' + desc + '</p>' + 
-                  '<div class="audioplayer"><audio controls style="width:200px">' + 
+                  '<div class="audioplayer"><audio controls style="width:230px">' + 
                   '<source src="' + audioprev + '" type="audio/mpeg"></audio></div>' + 
                   '</div>';
                 document.getElementById('badge-list').appendChild(badge);
